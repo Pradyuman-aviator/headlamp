@@ -60,6 +60,7 @@ describe('MutatingAdmissionPolicy resources', () => {
             },
           },
         ],
+        reinvocationPolicy: 'Never',
       },
     });
   });

@@ -89,6 +89,7 @@ class MutatingAdmissionPolicy extends KubeObject<KubeMutatingAdmissionPolicy> {
           },
         },
       ],
+      reinvocationPolicy: 'Never',
     };
     return baseObject;
   }
